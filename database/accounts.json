@@ -1,0 +1,24 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "email": "dominik.pavlica@seznam.cz",
+      "password": "$2a$10$LRCb0zfzWplHVJnEwFHCfuf5shP4Kp.ia.uzbJlSL.uu/oktCMyLq"
+    },
+    {
+      "id": 2,
+      "email": "rontend-pozice@ud4d-bez-domeny",
+      "password": "$2a$10$BqYNt2kOdcAyaso.DCBNiuSKZ/QrI7YDExc/URQg1HBTgAubHvSmG"
+    },
+    {
+      "id": 3,
+      "email": "tomas.strihal@email.cz",
+      "password": "$2a$10$XuXlzbGac5XqYxmMuE3rIOL9G2ehMXmoRGZWi1HEd5cclKLXluTNe"
+    },
+    {
+      "id": 4,
+      "email": "lubomir.zatopek@seznam.cz",
+      "password": "$2a$10$Y7Pf6DeIZv4qcB/68Pp.nuMFhoJYs1S9Dry1J5r338K6YoSu/GtgS"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+button[type='submit'] {
+  background-color: rgb(123, 139, 220);
+  color: rgb(18, 10, 13);
+  width: 35%;
+  height: 2.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+button[type='submit']:hover {
+  background-color: rgb(97, 115, 207);
+}
+
+.info-container {
+  width: 80%;
+  height: 6rem;
+  position: absolute;
+  text-align: left;
+  left: 4rem;
+  top: 70%;
+}
+
+.failedText {
+  display: block;
+  padding-top: 0.5rem;
+  color: rgb(207, 87, 87);
+}
+
+.acceptText {
+  display: block;
+  padding-top: 0.5rem;
+  color: rgb(76, 170, 76);
+}
+
+.failedIcon {
+  color: red;
+  margin-right: 0.75rem;
+}
+
+.acceptIcon {
+  color: green;
+  margin-right: 0.75rem;
+}
+
+.register-status {
+  padding-top: 1rem;
+}
+
+.register-status-accept {
+  color: green;
+}
+
+.register-status-decline {
+  color: red;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  button[type='submit'] {
+    width: 65% !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .info-container {
+    left: 2rem;
+    top: 65%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  button[type='submit'] {
+    width: 40% !important;
+  }
+}
